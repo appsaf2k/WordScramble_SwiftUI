@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AFB1FD9128C5E04E007E5974 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = AFB1FD9028C5E04E007E5974 /* start.txt */; };
 		AFCC97CF28C08B4900FD9637 /* WordScrambleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCC97CE28C08B4900FD9637 /* WordScrambleApp.swift */; };
-		AFCC97D128C08B4900FD9637 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCC97D028C08B4900FD9637 /* ContentView.swift */; };
+		AFCC97D128C08B4900FD9637 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCC97D028C08B4900FD9637 /* MainView.swift */; };
 		AFCC97D328C08B4A00FD9637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCC97D228C08B4A00FD9637 /* Assets.xcassets */; };
 		AFCC97D628C08B4A00FD9637 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCC97D528C08B4A00FD9637 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AFB1FD9028C5E04E007E5974 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		AFCC97CB28C08B4900FD9637 /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFCC97CE28C08B4900FD9637 /* WordScrambleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleApp.swift; sourceTree = "<group>"; };
-		AFCC97D028C08B4900FD9637 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFCC97D028C08B4900FD9637 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		AFCC97D228C08B4A00FD9637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFCC97D528C08B4A00FD9637 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				AFCC97CE28C08B4900FD9637 /* WordScrambleApp.swift */,
-				AFCC97D028C08B4900FD9637 /* ContentView.swift */,
+				AFCC97D028C08B4900FD9637 /* MainView.swift */,
+				AFB1FD9028C5E04E007E5974 /* start.txt */,
 				AFCC97D228C08B4A00FD9637 /* Assets.xcassets */,
 				AFCC97D428C08B4A00FD9637 /* Preview Content */,
 			);
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFCC97D628C08B4A00FD9637 /* Preview Assets.xcassets in Resources */,
+				AFB1FD9128C5E04E007E5974 /* start.txt in Resources */,
 				AFCC97D328C08B4A00FD9637 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFCC97D128C08B4900FD9637 /* ContentView.swift in Sources */,
+				AFCC97D128C08B4900FD9637 /* MainView.swift in Sources */,
 				AFCC97CF28C08B4900FD9637 /* WordScrambleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,7 +199,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
